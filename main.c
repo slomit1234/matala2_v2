@@ -21,7 +21,7 @@ int main()
 	do
 	{
 		//display manu to the user & get an input
-		printf("\nplease choose a function\n A- insert Adjacency Matrix.\n B- Find if Route Exists.\n C- Present The Shortest Route\n D- Exit\n");
+		//printf("\nplease choose a function\n A- insert Adjacency Matrix.\n B- Find if Route Exists.\n C- Present The Shortest Route\n D- Exit\n");
 		scanf("%c%c",&choise,&dump); //dump is for the tab char
 		//scanf("%c",&dump);
 		//printf("\n$$%c$%c$\n",choise,dump);
