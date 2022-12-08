@@ -17,11 +17,14 @@ int main()
 			AdjacencyMatrix[i][j] = 0;
 		}
 	}
-
+	
+	
 	do
 	{
 		//display manu to the user & get an input
 		//printf("\nplease choose a function\n A- insert Adjacency Matrix.\n B- Find if Route Exists.\n C- Present The Shortest Route\n D- Exit\n");
+		//printf("\n");
+		printf("\n");
 		scanf("%c%c",&choise,&dump); //dump is for the tab char
 		//scanf("%c",&dump);
 		//printf("\n$$%c$%c$\n",choise,dump);
@@ -36,13 +39,13 @@ int main()
 			case 'B':
 			{
 				IsRouteExist(AdjacencyMatrix); // call second func
-				scanf("%c",&dump); // last tab char
+				//scanf("%c",&dump); // last tab char
 				break;
 			}
 			case 67:
 			{
 				ShortestRoute(AdjacencyMatrix);
-				scanf("%c",&dump); // last tab char
+				//scanf("%c",&dump); // last tab char
 				break;
 			}
 			case 68:

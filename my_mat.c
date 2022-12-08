@@ -3,9 +3,10 @@
 #include "my_mat.h"
 
 
+
 void InitializeMatrix(int adj[N][N])
 {
-	printf("Enter the Matrix values:\n");
+	//printf("Enter the Matrix values:\n");
 	for (int i = 0; i < N; i++)
 	{
 		for (int j = 0; j < N; j++) {
@@ -38,9 +39,9 @@ void IsRouteExist(int adj[N][N])
 		}
 	}
 	
-	printf("Enter the i's element:\n");
+	//printf("Enter the i's element:\n");
 	scanf("%d%c", &i,&dump);
-	printf("Enter the j's element:\n");
+	//printf("Enter the j's element:\n");
 	scanf("%d%c", &j,&dump); 
 	
 	if (adj[i][j] != 0)
@@ -84,9 +85,9 @@ char dump = 0;
 int res[N];
 int arr[N];
 
-printf("Enter the Source vertice:\n");
+//printf("Enter the Source vertice:\n");
 scanf("%d%c", &src, &dump);
-printf("Enter the Destination vertice:\n");
+//printf("Enter the Destination vertice:\n");
 scanf("%d%c", &dst, &dump);
    
     for (int i=0; i<N; i++)
