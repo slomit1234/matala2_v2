@@ -5,6 +5,7 @@ int main()
 {
 	int i = 0;
 	int j = 0;
+	static int a =0;
 	int flag = 0;
 	char choise = 0;
 	char dump = 0;
@@ -25,7 +26,7 @@ int main()
 		//printf("\nplease choose a function\n A- insert Adjacency Matrix.\n B- Find if Route Exists.\n C- Present The Shortest Route\n D- Exit\n");
 		//printf("\n");
 		 //dump is for the tab char
-		//scanf("%c",&dump);
+		
 		//printf("\n$$%c$%c$\n",choise,dump);
 		switch (choise) //char is represnted in ascii A=65 B=66 C=67 D=68
 		{
@@ -37,16 +38,30 @@ int main()
 			}
 			case 'B':
 			{
+				if (a == 0)
+				{
+					a=1;
+				}
+				else 
+				{
+					printf("\n");
+				}
 				IsRouteExist(AdjacencyMatrix); // call second func
 				//scanf("%c",&dump); // last tab char
-				printf("\n");
 				break;
 			}
 			case 67:
 			{
+				if (a == 0)
+				{
+					a=1;
+				}
+				else 
+				{
+					printf("\n");
+				}
 				ShortestRoute(AdjacencyMatrix);
 				//scanf("%c",&dump); // last tab char
-				printf("\n");
 				break;
 			}
 			case 68:

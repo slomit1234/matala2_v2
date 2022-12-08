@@ -1,6 +1,7 @@
 CC=gcc
 FLAGS= -Wall -g
 
+
 all:connections
 
 connections: main.o my_mat.o
