@@ -18,12 +18,11 @@ int main()
 		}
 	}
 	//printf("\n");
-	scanf("%c%c",&choise,&dump); 
+	scanf("%c%c",&choise,&dump);  // first scan
 	do
 	{
 		//display manu to the user & get an input
 		//printf("\nplease choose a function\n A- insert Adjacency Matrix.\n B- Find if Route Exists.\n C- Present The Shortest Route\n D- Exit\n");
-		//printf("\n");
 		//printf("\n");
 		 //dump is for the tab char
 		//scanf("%c",&dump);

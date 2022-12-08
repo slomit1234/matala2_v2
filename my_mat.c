@@ -2,8 +2,6 @@
 #include <limits.h>
 #include "my_mat.h"
 
-
-
 void InitializeMatrix(int adj[N][N])
 {
 	//printf("Enter the Matrix values:\n");
